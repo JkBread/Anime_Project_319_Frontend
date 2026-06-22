@@ -1,10 +1,7 @@
 const AnimeHomePage = () => {
     return (
-        <div>
-            <h1>Anime Home Page</h1>
-        </div>
+        <div > Anime Home Page </div>
     );
-
 };
 
 export default AnimeHomePage;

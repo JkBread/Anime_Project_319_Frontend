@@ -1,12 +1,11 @@
-import type { AnimeGenre } from "../enums/AnimeGenre";
-
 export type Anime = {
   id: number;
-  genre: AnimeGenre;
   title: string;
-  season: number;
-  episode: number;
-  rating: number;
-  description: string;
-  publication_date: string;
+  genres: string[];
+  season: string | null;
+  episodes: number | null;
+  rating: number | null;
+  description: string | null;
+  publicationDate: string;
+  image: string;
 };

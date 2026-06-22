@@ -1,7 +1,7 @@
 const AddFavoritePage = () => {
     return (
-        <div> Add Favorite Page</div>
+        <div > Add Favorite Page </div>
     );
-}
+};
 
-export default AddFavoritePage;
+export default AddFavoritePage
