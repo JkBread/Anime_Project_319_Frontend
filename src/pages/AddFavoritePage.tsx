@@ -1,6 +1,11 @@
+import Navbar from "../components/Organisms/Navbar"
+
 const AddFavoritePage = () => {
     return (
-        <div> Add Favorite Page</div>
+        <>
+            <Navbar />
+            <div> Add Favorite Page</div>
+        </>
     );
 }
 

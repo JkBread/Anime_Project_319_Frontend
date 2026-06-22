@@ -1,14 +1,15 @@
 
 import AnimeHomePage from '../pages/AnimeHomepage';
-import AnimeMyFavorites from '../pages/AnimeMyFavorites';
-import AnimeMyTierList from '../pages/AnimeMyTierList';
-import AnimeMyWatchlist from '../pages/AnimeMyWatchlist';
+import AnimeMyFavorites from '../pages/AnimeMyFavoritesPage';
+import AnimeMyTierList from '../pages/AnimeMyTierListPage';
+import AnimeMyWatchlist from '../pages/AnimeMyWatchlistPage';
 import AddFavoritePage from '../pages/AddFavoritePage';
 import EditFavoritePage from '../pages/EditFavoritePage';
 import AddWatchlistPage from '../pages/AddWatchlistPage';
 import EditWatchlistPage from '../pages/EditWatchlistPage';
 
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import AnimeDetailPage from '../pages/AnimeDetailPage';
 
 
 
@@ -19,6 +20,7 @@ function App() {
       <Routes>
         <Route path="/" element={<AnimeHomePage />} />
         <Route path="/animes" element={<AnimeHomePage />} />
+        <Route path="/animes/:id" element={<AnimeDetailPage />} />
         <Route path="/favorites" element={<AnimeMyFavorites />} />
         <Route path="/tierlist" element={<AnimeMyTierList />} />
         <Route path="/watchlist" element={<AnimeMyWatchlist />} />
