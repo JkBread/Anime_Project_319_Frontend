@@ -19,6 +19,7 @@ export const animeMockData: Anime[] = [
     episodes: 28,
     seasonYear: 2023,
     status: "FINISHED",
+    favorite: false,
   },
   {
     id: 2,
@@ -37,6 +38,7 @@ export const animeMockData: Anime[] = [
     episodes: 89,
     seasonYear: 2013,
     status: "FINISHED",
+    favorite: false,
   },
   {
     id: 3,
@@ -55,6 +57,7 @@ export const animeMockData: Anime[] = [
     episodes: 37,
     seasonYear: 2006,
     status: "FINISHED",
+    favorite: false,
   },
   {
     id: 4,
@@ -73,6 +76,7 @@ export const animeMockData: Anime[] = [
     episodes: 220,
     seasonYear: 2002,
     status: "FINISHED",
+    favorite: false,
   },
   {
     id: 5,
@@ -91,6 +95,7 @@ export const animeMockData: Anime[] = [
     episodes: 500,
     seasonYear: 2007,
     status: "FINISHED",
+    favorite: false,
   },
   {
     id: 6,
@@ -109,6 +114,7 @@ export const animeMockData: Anime[] = [
     episodes: 1100,
     seasonYear: 1999,
     status: "RELEASING",
+    favorite: true,
   },
   {
     id: 7,
@@ -127,6 +133,7 @@ export const animeMockData: Anime[] = [
     episodes: 55,
     seasonYear: 2019,
     status: "RELEASING",
+    favorite: true,
   },
   {
     id: 8,
@@ -145,6 +152,7 @@ export const animeMockData: Anime[] = [
     episodes: 47,
     seasonYear: 2020,
     status: "RELEASING",
+    favorite: true,
   },
   {
     id: 9,
@@ -163,6 +171,7 @@ export const animeMockData: Anime[] = [
     episodes: 159,
     seasonYear: 2016,
     status: "RELEASING",
+    favorite: true,
   },
   {
     id: 10,
@@ -181,6 +190,7 @@ export const animeMockData: Anime[] = [
     episodes: 24,
     seasonYear: 2011,
     status: "FINISHED",
+    favorite: false,
   },
   {
     id: 11,
@@ -199,6 +209,7 @@ export const animeMockData: Anime[] = [
     episodes: 148,
     seasonYear: 2011,
     status: "FINISHED",
+    favorite: true,
   },
   {
     id: 12,
@@ -217,5 +228,6 @@ export const animeMockData: Anime[] = [
     episodes: 48,
     seasonYear: 2014,
     status: "FINISHED",
+    favorite: false,
   },
 ]; 

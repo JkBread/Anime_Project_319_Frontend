@@ -15,4 +15,5 @@ export interface Anime {
   episodes: number | null;
   seasonYear: number | null;
   status: string;
+  favorite: boolean;
 }
