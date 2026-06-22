@@ -1,4 +1,4 @@
-// src/data/animeMockData.ts
+
 import type { Anime } from "../types/Anime";
 
 export const animeMockData: Anime[] = [
@@ -20,4 +20,202 @@ export const animeMockData: Anime[] = [
     seasonYear: 2023,
     status: "FINISHED",
   },
-];
+  {
+    id: 2,
+    title: {
+      romaji: "Shingeki no Kyojin",
+      english: "Attack on Titan",
+    },
+    coverImage: {
+      large: "https://via.placeholder.com/300x450",
+      medium: "https://via.placeholder.com/200x300",
+    },
+    bannerImage: null,
+    averageScore: 89,
+    genres: ["Action", "Drama"],
+    description: "Mock description",
+    episodes: 89,
+    seasonYear: 2013,
+    status: "FINISHED",
+  },
+  {
+    id: 3,
+    title: {
+      romaji: "Death Note",
+      english: "Death Note",
+    },
+    coverImage: {
+      large: "https://via.placeholder.com/300x450",
+      medium: "https://via.placeholder.com/200x300",
+    },
+    bannerImage: null,
+    averageScore: 87,
+    genres: ["Mystery", "Psychological"],
+    description: "Mock description",
+    episodes: 37,
+    seasonYear: 2006,
+    status: "FINISHED",
+  },
+  {
+    id: 4,
+    title: {
+      romaji: "Naruto",
+      english: "Naruto",
+    },
+    coverImage: {
+      large: "https://via.placeholder.com/300x450",
+      medium: "https://via.placeholder.com/200x300",
+    },
+    bannerImage: null,
+    averageScore: 79,
+    genres: ["Action", "Adventure"],
+    description: "Mock description",
+    episodes: 220,
+    seasonYear: 2002,
+    status: "FINISHED",
+  },
+  {
+    id: 5,
+    title: {
+      romaji: "Naruto Shippuuden",
+      english: "Naruto Shippuden",
+    },
+    coverImage: {
+      large: "https://via.placeholder.com/300x450",
+      medium: "https://via.placeholder.com/200x300",
+    },
+    bannerImage: null,
+    averageScore: 84,
+    genres: ["Action", "Adventure"],
+    description: "Mock description",
+    episodes: 500,
+    seasonYear: 2007,
+    status: "FINISHED",
+  },
+  {
+    id: 6,
+    title: {
+      romaji: "One Piece",
+      english: "One Piece",
+    },
+    coverImage: {
+      large: "https://via.placeholder.com/300x450",
+      medium: "https://via.placeholder.com/200x300",
+    },
+    bannerImage: null,
+    averageScore: 88,
+    genres: ["Adventure", "Comedy"],
+    description: "Mock description",
+    episodes: 1100,
+    seasonYear: 1999,
+    status: "RELEASING",
+  },
+  {
+    id: 7,
+    title: {
+      romaji: "Kimetsu no Yaiba",
+      english: "Demon Slayer",
+    },
+    coverImage: {
+      large: "https://via.placeholder.com/300x450",
+      medium: "https://via.placeholder.com/200x300",
+    },
+    bannerImage: null,
+    averageScore: 86,
+    genres: ["Action", "Fantasy"],
+    description: "Mock description",
+    episodes: 55,
+    seasonYear: 2019,
+    status: "RELEASING",
+  },
+  {
+    id: 8,
+    title: {
+      romaji: "Jujutsu Kaisen",
+      english: "Jujutsu Kaisen",
+    },
+    coverImage: {
+      large: "https://via.placeholder.com/300x450",
+      medium: "https://via.placeholder.com/200x300",
+    },
+    bannerImage: null,
+    averageScore: 85,
+    genres: ["Action", "Supernatural"],
+    description: "Mock description",
+    episodes: 47,
+    seasonYear: 2020,
+    status: "RELEASING",
+  },
+  {
+    id: 9,
+    title: {
+      romaji: "Boku no Hero Academia",
+      english: "My Hero Academia",
+    },
+    coverImage: {
+      large: "https://via.placeholder.com/300x450",
+      medium: "https://via.placeholder.com/200x300",
+    },
+    bannerImage: null,
+    averageScore: 81,
+    genres: ["Action", "School"],
+    description: "Mock description",
+    episodes: 159,
+    seasonYear: 2016,
+    status: "RELEASING",
+  },
+  {
+    id: 10,
+    title: {
+      romaji: "Steins;Gate",
+      english: "Steins;Gate",
+    },
+    coverImage: {
+      large: "https://via.placeholder.com/300x450",
+      medium: "https://via.placeholder.com/200x300",
+    },
+    bannerImage: null,
+    averageScore: 91,
+    genres: ["Sci-Fi", "Thriller"],
+    description: "Mock description",
+    episodes: 24,
+    seasonYear: 2011,
+    status: "FINISHED",
+  },
+  {
+    id: 11,
+    title: {
+      romaji: "Hunter x Hunter",
+      english: "Hunter x Hunter",
+    },
+    coverImage: {
+      large: "https://via.placeholder.com/300x450",
+      medium: "https://via.placeholder.com/200x300",
+    },
+    bannerImage: null,
+    averageScore: 90,
+    genres: ["Adventure", "Action"],
+    description: "Mock description",
+    episodes: 148,
+    seasonYear: 2011,
+    status: "FINISHED",
+  },
+  {
+    id: 12,
+    title: {
+      romaji: "Tokyo Ghoul",
+      english: "Tokyo Ghoul",
+    },
+    coverImage: {
+      large: "https://via.placeholder.com/300x450",
+      medium: "https://via.placeholder.com/200x300",
+    },
+    bannerImage: null,
+    averageScore: 79,
+    genres: ["Action", "Horror"],
+    description: "Mock description",
+    episodes: 48,
+    seasonYear: 2014,
+    status: "FINISHED",
+  },
+]; 

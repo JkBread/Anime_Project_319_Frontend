@@ -1,5 +1,6 @@
 import { AppBar, Box, Toolbar, Typography } from "@mui/material";
 import { useNavigate } from "react-router-dom";
+import BackButton from "../Atoms/Button/BackButton";
 
 const Navbar = () => {
   const navigate = useNavigate();
@@ -7,6 +8,7 @@ const Navbar = () => {
   return (
     <AppBar position="static" sx={{ backgroundColor: "#a32ded" }}>
       <Toolbar>
+        <BackButton />
 
         <Typography
           variant="h5"
