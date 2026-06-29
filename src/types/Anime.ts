@@ -16,4 +16,5 @@ export interface Anime {
   seasonYear: number | null;
   status: string;
   favorite: boolean;
+  watchlist: boolean;
 }

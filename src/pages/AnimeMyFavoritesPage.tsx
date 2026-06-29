@@ -29,25 +29,12 @@ export default function AnimeMyFavoritePage() {
   }
 
   return (
-    <Box
-      sx={{
-          display: "flex",
-          flexDirection: "column",
-          alignItems: "center",
-          textAlign: "left",
-      }}
-      >
-      <Navbar />
-
-    <Typography
+    <>
+    <Navbar />
+    <Box sx={{ p: 3, backgroundColor: "#f6e9ff", minHeight: "100vh" }}>
+      <Typography
         variant="h4"
-        sx={{
-          textAlign: "center",
-          color: "#9407ec",
-          fontWeight: "bold",
-          mb: 3,
-          mt: 2,
-        }}
+        sx={{ textAlign: "center", color: "#9407ec", fontWeight: "bold", mb: 3 }}
       >
         My Favorite Anime
       </Typography>
@@ -55,9 +42,8 @@ export default function AnimeMyFavoritePage() {
       {favorites.length === 0 ? (
         <Typography
           sx={{
-            textAlign: "center",
-            color: "#9407ec",
-            mt: 4,
+            textAlign: "center",  
+            color: "#9407ec"
           }}
         >
           No favorites yet
@@ -70,10 +56,10 @@ export default function AnimeMyFavoritePage() {
                 ref={provided.innerRef}
                 {...provided.droppableProps}
                 sx={{
-                  display: "flex",
-                  flexDirection: "column",
-                  alignItems: "center",
-                  gap: 1,
+                  display: "block",
+                  mx: "auto",
+                  mb: 3,
+                  maxWidth: 800
                 }}
               >
                 {favorites.map((anime, index) => (
@@ -88,8 +74,11 @@ export default function AnimeMyFavoritePage() {
                         {...provided.draggableProps}
                         {...provided.dragHandleProps}
                         sx={{
-                          width: "100%",
-                          maxWidth: 350,
+                          display: "flex",
+                          mx: "auto",
+                          mb: 1,
+                          maxWidth: 800,
+
                         }}
                       >
                         <AnimeCard anime={anime} index={index} />
@@ -105,5 +94,6 @@ export default function AnimeMyFavoritePage() {
         </DragDropContext>
       )}
     </Box>
+    </>
   );
 }

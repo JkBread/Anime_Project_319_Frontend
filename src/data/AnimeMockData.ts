@@ -20,6 +20,7 @@ export const animeMockData: Anime[] = [
     seasonYear: 2023,
     status: "FINISHED",
     favorite: false,
+    watchlist: true,
   },
   {
     id: 2,
@@ -39,6 +40,7 @@ export const animeMockData: Anime[] = [
     seasonYear: 2013,
     status: "FINISHED",
     favorite: false,
+    watchlist: true,
   },
   {
     id: 3,
@@ -58,6 +60,8 @@ export const animeMockData: Anime[] = [
     seasonYear: 2006,
     status: "FINISHED",
     favorite: false,
+        watchlist: false,
+
   },
   {
     id: 4,
@@ -77,6 +81,8 @@ export const animeMockData: Anime[] = [
     seasonYear: 2002,
     status: "FINISHED",
     favorite: false,
+        watchlist: true,
+
   },
   {
     id: 5,
@@ -96,6 +102,8 @@ export const animeMockData: Anime[] = [
     seasonYear: 2007,
     status: "FINISHED",
     favorite: false,
+    watchlist: false,
+
   },
   {
     id: 6,
@@ -115,6 +123,8 @@ export const animeMockData: Anime[] = [
     seasonYear: 1999,
     status: "RELEASING",
     favorite: true,
+    watchlist: true,
+
   },
   {
     id: 7,
@@ -134,6 +144,8 @@ export const animeMockData: Anime[] = [
     seasonYear: 2019,
     status: "RELEASING",
     favorite: true,
+    watchlist: true,
+
   },
   {
     id: 8,
@@ -153,6 +165,8 @@ export const animeMockData: Anime[] = [
     seasonYear: 2020,
     status: "RELEASING",
     favorite: true,
+    watchlist: true,
+
   },
   {
     id: 9,
@@ -172,6 +186,8 @@ export const animeMockData: Anime[] = [
     seasonYear: 2016,
     status: "RELEASING",
     favorite: true,
+    watchlist: false,
+
   },
   {
     id: 10,
@@ -191,6 +207,7 @@ export const animeMockData: Anime[] = [
     seasonYear: 2011,
     status: "FINISHED",
     favorite: false,
+    watchlist: false,
   },
   {
     id: 11,
@@ -210,6 +227,7 @@ export const animeMockData: Anime[] = [
     seasonYear: 2011,
     status: "FINISHED",
     favorite: true,
+    watchlist: false,
   },
   {
     id: 12,
@@ -229,5 +247,6 @@ export const animeMockData: Anime[] = [
     seasonYear: 2014,
     status: "FINISHED",
     favorite: false,
+    watchlist: false,
   },
 ]; 
