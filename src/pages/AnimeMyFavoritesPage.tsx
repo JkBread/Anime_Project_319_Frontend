@@ -29,8 +29,15 @@ export default function AnimeMyFavoritePage() {
   }
 
   return (
-    <>
-    <Navbar />
+    <Box
+      sx={{
+          display: "flex",
+          flexDirection: "column",
+          alignItems: "center",
+          textAlign: "left",
+      }}
+      >
+      <Navbar />
 
     <Typography
         variant="h4"
@@ -45,16 +52,6 @@ export default function AnimeMyFavoritePage() {
         My Favorite Anime
       </Typography>
 
-    <Box
-    sx={{
-        display: "flex",
-        flexDirection: "column",
-        alignItems: "center",
-        textAlign: "left",
-        width: 950,
-        height: "auto",
-    }}
-    >
       {favorites.length === 0 ? (
         <Typography
           sx={{
@@ -108,6 +105,5 @@ export default function AnimeMyFavoritePage() {
         </DragDropContext>
       )}
     </Box>
-    </>
   );
 }

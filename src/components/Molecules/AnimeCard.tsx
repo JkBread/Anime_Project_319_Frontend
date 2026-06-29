@@ -9,8 +9,9 @@ const AnimeCard = ({ anime, index }) => {
         backgroundColor: "#bd80f9",
         border: "2px solid #9407ec",
         borderRadius: 3,
-        width: 1000,
-        height: "auto",
+        width: 800,
+         
+        
     }}
     >
       <CardContent
@@ -19,6 +20,7 @@ const AnimeCard = ({ anime, index }) => {
           alignItems: "center",
           gap: 2,
           p: 2,
+          width: 2000,
         }}
       >
         <Typography
